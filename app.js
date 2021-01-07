@@ -1,4 +1,4 @@
-//Chapter#02
+//Chapter#01
 //Q.1:
 // alert("Welcome to My Web")
 //Q.2:
@@ -42,7 +42,7 @@
 //Q.9:
 // var abc = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 // alert(abc)
-//Chapter#03:
+//Chapter#03
 //Q.1:
 // var age = "I am 13 years old"
 // alert(age)
@@ -58,7 +58,7 @@
 // var ProductTitle = prompt("Enter Your Product Title")
 // var Quantity = prompt("Enter how many products do you want to order")
 // document.write("Ali ordered 8 T-shirt(s) on XYZ Clothing store")
-//Chapter#04:
+//Chapter#04
 //Q.1:
 // var x,y,z;
 //Q.2:
@@ -76,7 +76,7 @@
 // alert(kl+'\n'+mn+'\n'+op+'\n'+qr+'\n'+st)
 //Q.3:
 // document.write("Rules for naming JS variables" + "<br>" + "<br>" + "<br>" + "Variable names can only contain, numbers, $ and _ . For example : $my_1stVariable" + "<br>" + "Variables must begin with a letter, $ or _ . For example $name, _name or name" + "<br>" + "Variable names are case sensitive" + "<br>" + "Variable names should not be JS Keywords")
-//Chapter#04:
+//Chapter#05
 //Q.1:
 // var sum = 5+5;
 // document.write("Sum of 5 and 5 is 10")
@@ -117,6 +117,10 @@
 // document.write("5x9= ",table*9+"<br>");
 // document.write("5x10= ",table*10+"<br>");
 //Q.6:
+// var a = 25;
+// document.write(a, "°C is 77°F" + "<br>")
+// var b = 70;
+// document.write(b, "°F is 21.11111111111111°C")
 //Q.7:
 // var item1 = 650;
 // var item1 = item1*3;
@@ -159,7 +163,17 @@
 // document.write("The circumference is: ",radius*circumference*pie + "<br>")
 // var area = 20*20;
 // document.write("The area is: ",area*pie + "<br>")
-//chapter#06 to chapter#09:
+//Q.13:
+// document.write("<h1>")
+// document.write("The Lifetime Supply Calculator")
+// document.write("</h1>")
+// var favoriteSnack = "Chocolate Chip",currentAge = 13,maximumAge = "60",perDay = "10";
+// document.write("Favourite Snack: ",favoriteSnack + "<br>")
+// document.write("Current Age: ",currentAge + "<br>")
+// document.write("Estimated Maximum Age: ",maximumAge + "<br>")
+// document.write("Amount of snacks per day: ",perDay + "<br>")
+// document.write("You will need ",perDay*(60-13)+" chocolate to last you until the ripe old age of 60")
+//chapter#06 to chapter#09
 //Q.1:
 // document.write("Result"+"<br>")
 // var a = 10;
@@ -183,6 +197,118 @@
 // document.write("a is: ",a+"<br>")
 // document.write("b is: ",b+"<br>")
 // document.write("Result is: ",a+b+"<br>")
+//Q.6:
+// var subject_1 = prompt("Enter Your Subject#01 Name","English")
+// var subject_2 = prompt("Enter Your Subject#02 Name","Math")
+// var subject_3 = prompt("Enter Your Subject#03 Name","Science")
+// var total_marks = 100;
+// var sub1obt = prompt("Enter your Subject#01 obtained marks")
+// var sub2obt = prompt("Enter your Subject#02 obtained marks")
+// var sub3obt = prompt("Enter your Subject#03 obtained marks")
+
+// document.write("<table border='2'>")
+
+// document.write("<tr>")
+
+// document.write("<th>")
+// document.write("Subject")
+// document.write("</th>")
+
+// document.write("<th>")
+// document.write("Total Marks")
+// document.write("</th>")
+
+// document.write("<th>")
+// document.write("Obtained Marks")
+// document.write("</th>")
+
+// document.write("<th>")
+// document.write("Percentage")
+// document.write("</th>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>")
+// document.write(subject_1)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(total_marks)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(sub1obt)
+// document.write("</th>")
+
+// document.write("<td>")
+// document.write(sub1obt%total_marks + "%")
+// document.write("</td>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>")
+// document.write(subject_2)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(total_marks)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(sub2obt)
+// document.write("</th>")
+
+// document.write("<td>")
+// document.write(sub2obt%total_marks + "%")
+// document.write("</td>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>")
+// document.write(subject_3)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(total_marks)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(sub3obt)
+// document.write("</th>")
+
+// document.write("<td>")
+// document.write(sub3obt%total_marks + "%")
+// document.write("</td>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>")
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(total_marks+total_marks+total_marks)
+// document.write("</td>")
+
+// document.write("<td>")
+// document.write(sub1obt+++sub2obt+++sub3obt++)
+// document.write("</th>")
+
+// document.write("<td>")
+// document.write(-- sub1obt +-- sub2obt +--sub3obt + "%")
+// document.write("</td>")
+
+// document.write("</tr>")
+
+// document.write("</table>")
+
 //chapter#09 to chapter#11:
 //Q.1:
 // var city = prompt("Enter your city name")
@@ -199,6 +325,92 @@
 // }
 // else if (gender == "female"){
 //     alert ("Good Moring Ma’am")
+// }
+//Q.3:
+// var signal = prompt("Enter road traffic signal")
+// if (signal=="red"){
+//     alert("Must Stop")
+// }
+// else if (signal=="yellow"){
+//     alert("Ready to move")
+// }
+// else if (signal=="green"){
+//     alert("Move now")
+// }
+//Q.4:
+// var a = prompt("Enter your remaining car fuel")
+// if (a<=0.25){
+//     alert("Please refill the fuel in your car")
+// }
+//Q.6:
+// document.write("<h1>")
+// document.write("Marks Sheet")
+// document.write("</h1>")
+// var totalMarks = 300;
+// var a = prompt("Enter Marks")
+// var percentage = prompt("Enter Percentage %")
+// if (a >= 240 && a <= 300){
+//     document.write("Total marks: ",totalMarks + "<br>")
+//     document.write("Marks Obtained: ",a + "<br>")
+//     document.write("Percentage: ",percentage + "<br>")
+//     document.write("Grade: A+" + "<br>")
+//     document.write("Remarks: Excellent" + "<br>")
+// }
+// else if (a >= 210 && a <= 240){
+//     document.write("Total marks: ",totalMarks + "<br>")
+//     document.write("Marks Obtained: ",a + "<br>")
+//     document.write("Percentage: ",percentage + "<br>")
+//     document.write("Grade: A" + "<br>")
+//     document.write("Remarks: Good" + "<br>")
+// }
+// else if (a >= 180 && a <= 210){
+//     document.write("Total marks: ",totalMarks + "<br>")
+//     document.write("Marks Obtained: ",a + "<br>")
+//     document.write("Percentage: ",percentage + "<br>")
+//     document.write("Grade: B" + "<br>")
+//     document.write("Remarks: You need to improve" + "<br>")
+// }
+// else {
+//     document.write("Sorry You are Failed")
+// }
+//Q.7:
+// var secret = "5"
+// var guess = prompt("Enter my secret number")
+// if (guess==5){
+//     alert("Bingo! Correct answer")
+// }
+// else {
+//     alert("Close enough to the correct answer")
+// }
+//Q.8:
+// var a = prompt("Enter your number")
+// if (a % 3 == 0){
+//     alert("The Number is divisible by 3")
+// }
+// else{
+//     alert("The Number is not divisible by 3")
+// }
+//Q.9:
+// var a = prompt("Enter your number")
+// if (a % 2 == 0){
+//     alert("It is even number")
+// }
+// else {
+//     alert("It is odd number")
+// }
+//Q.10:
+// var a = prompt("Enter Karachi's Temperature")
+// if (a == 40){
+//     alert("It is too hot outside")
+// }
+// else if (a == 30){
+//     alert("The Weather today is Normal")
+// }
+// else if (a == 20){
+//     alert("Today’s Weather is cool")
+// }
+// else if (a == 10){
+//     alert("OMG! Today’s weather is so Cool")
 // }
 //chapter#12 and 13:
 //Q.3:
